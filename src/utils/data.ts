@@ -1,0 +1,428 @@
+import P101 from "../assets/products/P101.png";
+import P102 from "../assets/products/P102.png";
+import P103 from "../assets/products/P103.png";
+import P104 from "../assets/products/P104.png";
+import P105 from "../assets/products/P105.png";
+import P106 from "../assets/products/P106.png";
+import P107 from "../assets/products/P107.png";
+import P108 from "../assets/products/P108.png";
+import P201 from "../assets/products/P201.png";
+import P202 from "../assets/products/P202.png";
+import P203 from "../assets/products/P203.png";
+import P301 from "../assets/products/P301.png";
+import P302 from "../assets/products/P302.png";
+import P303 from "../assets/products/P303.png";
+import P401 from "../assets/products/P401.png";
+import P402 from "../assets/products/P402.png";
+import P501 from "../assets/products/P501.png";
+import P502 from "../assets/products/P502.png";
+import P601 from "../assets/products/P601.png";
+import P602 from "../assets/products/P602.png";
+import P603 from "../assets/products/P603.png";
+import P701 from "../assets/products/P701.jpg";
+import P702 from "../assets/products/P702.png";
+import P801 from "../assets/products/P801.jpg";
+import P802 from "../assets/products/P802.jpg";
+import P803 from "../assets/products/P803.jpg";
+import P901 from "../assets/products/P901.png";
+import P902 from "../assets/products/P902.png";
+import P10_01 from "../assets/products/P10-01.jpeg";
+import P10_02 from "../assets/products/P10-02.jpeg";
+import P10_03 from "../assets/products/P10-03.jpeg";
+import P11_01 from "../assets/products/P11-01.png";
+import P12_01 from "../assets/products/P12-01.jpg";
+import P13_01 from "../assets/products/P13-01.jpg";
+import P13_02 from "../assets/products/P13-02.png";
+import P14_01 from "../assets/products/P14-01.jpg";
+import P15_01 from "../assets/products/P15-01.jpg";
+import P15_02 from "../assets/products/P15-02.jpg";
+
+export const productsData = [
+  {
+    id: "1",
+    productImg: P101,
+    productName: "Christmas Bundles Touch n Go Toll",
+    stockStatus: "READY STOCK",
+    price: 249.8,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P101, P102, P103, P104, P105, P106, P107, P108],
+      edition: "",
+      types: [
+        "1 x Toll Reader",
+        "1 x Rechargeable Battery (3 MONTHS WARRANTY)",
+        "1 x Dashboard holder V2",
+        "1 Yar warranty",
+        "1 x MAXTAG Car Wash Towel",
+        "1 x MAXTAG Thermos Flask",
+      ],
+      addOn: ["1 Year Warranty"],
+      colors: [
+        "Basic Black",
+        "Blue",
+        "Red",
+        "Blue Daisy",
+        "Green",
+        "Yellow",
+        "Lavender",
+        "Pink",
+      ],
+    },
+  },
+  {
+    id: "2",
+    productImg: P201,
+    productName: "Blue - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P201, P202, P203],
+      edition: "Red MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "3",
+    productImg: P301,
+    productName: "Yellow - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P301, P302, P303],
+      edition: "Red MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "4",
+    productImg: P401,
+    productName: "Blue Daisy - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P401, P402],
+      edition: "Blue Daisy MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "5",
+    productImg: P501,
+    productName: "Purple Lavender - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P501, P502],
+      edition: "Purple Lavender MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "6",
+    productImg: P601,
+    productName: "Red - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P601, P602, P603],
+      edition: "Red MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "7",
+    productImg: P701,
+    productName: "Green - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P701, P702],
+      edition: "Green MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "8",
+    productImg: P801,
+    productName: "Pink Blossom - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P801, P802, P803],
+      edition: "Pink Blossom MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "9",
+    productImg: P901,
+    productName: "Basic Black - MaxTag Touch n Go Toll [READY STOCK]",
+    stockStatus: "READY STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P901, P902],
+      edition: "Basic Black MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "10",
+    productImg: P10_01,
+    productName:
+      "Raya Edition Light Green - MaxTag Touch n Go Toll [PRE ORDER: ETA 14 Days]",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "MaxTag",
+    productTag: [],
+    isMoreOptions: true,
+    isWait: null,
+    sku: "N/A",
+    discount: 18,
+    inStocks: 10,
+    options: {
+      images: [P10_01, P10_02, P10_03],
+      edition: "Pink Blossom MaxTag Edition",
+      types: [
+        "1 x MaxTag",
+        "1 x Bracket Holder",
+        "1 x 9V Rechargeable Batery (3 MONTHS WARRANTY)",
+        "1 Year Warranty or 2 years Warranty (depending on customer's choice)",
+      ],
+      addOn: ["1 Year Warranty", "2 Year Warranty"],
+      colors: [],
+    },
+  },
+  {
+    id: "11",
+    productImg: P11_01,
+    productName: "MaxTag / USB Type-C Rechargeable Battery",
+    stockStatus: "READY STOCK",
+    price: 195.0,
+    highlights: [
+      "- 9V 100 mAh Li-ion battery",
+      "- Typically 1 hour charging time",
+      "- More than 500 recharge cycles",
+      "- Over voltage charging protection",
+      "(3 MONTHS WARRANTY)",
+    ],
+    productType: "Accessories",
+    productTag: ["Accessories", "Battery"],
+    isMoreOptions: false,
+    isWait: null,
+    sku: "001",
+    discount: null,
+    inStocks: 10,
+  },
+  {
+    id: "12",
+    productImg: P12_01,
+    productName: "Touch 'n Go Card",
+    stockStatus: "OUT OF STOCK",
+    price: 195.0,
+    highlights: [
+      "Can be used at expressways, transits (LRT, MRT, KTM), retail, and parking. This card does not contain any credit value.",
+    ],
+    productType: "Accessories",
+    productTag: ["Accessories", "TnG Card"],
+    isMoreOptions: false,
+    isWait: true,
+    sku: "007",
+    discount: null,
+    inStocks: 10,
+  },
+  {
+    id: "13",
+    productImg: P13_01,
+    productName: "Dashboard Holder (Ver 2.0)",
+    stockStatus: "READY STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "Accessories",
+    productTag: ["Accessories", "Holder"],
+    isMoreOptions: false,
+    isWait: false,
+    sku: "014",
+    discount: null,
+    inStocks: 10,
+    options: {
+      images: [P13_01, P13_02],
+      edition: "",
+      types: [
+        "- Moulded using thermoplastic elastomer (TPE)",
+        "- Comes with a HIGH QUALITY 3M Sticky Gel Pad",
+        "- NO LONGER need to HOLD for safer driving",
+      ],
+      addOn: [],
+      colors: [],
+    },
+  },
+  {
+    id: "14",
+    productImg: P14_01,
+    productName: "Bracket Holder for Old Version",
+    stockStatus: "READY STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "Accessories",
+    productTag: ["Accessories", "Holder"],
+    isMoreOptions: false,
+    isWait: false,
+    sku: "008",
+    discount: null,
+    inStocks: 10,
+  },
+  {
+    id: "15",
+    productImg: P15_01,
+    productName: "Bracket Holder",
+    stockStatus: "READY STOCK",
+    price: 195.0,
+    highlights: [],
+    productType: "Accessories",
+    productTag: ["Accessories", "Holder"],
+    isMoreOptions: true,
+    isWait: false,
+    sku: "005",
+    discount: null,
+    inStocks: 10,
+    options: {
+      images: [P15_01, P15_02],
+      edition: "",
+      types: [
+        "This bracket holder is compatible with both the MaxTag and SmartTAG",
+        "comes with ",
+        "1 x Bracket Holder",
+      ],
+      addOn: [],
+      colors: [],
+    },
+  },
+];

@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  background: #191919;
+  color: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px #b80024;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px #b80024;
+  }
+}
+/* Text opacity animation */
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.opacity-animation {
+  animation: fadeInOut 1s infinite;
+}
+
+/* Arrow pointing animation */
+@keyframes arrowMove {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+}
+
+.arrow-animation {
+  animation: arrowMove 2s infinite;
+}
+
+/* Vertical text styling */
+.text-vertical {
+  writing-mode: vertical-rl;
+}
+
+/* Flipped vertical text styling */
+.text-vertical-flip {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+/* Banner up-and-down animation */
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+.animate-banners img {
+  animation: moveUpDown 4s infinite;
+}
+
+/* Remove overflow for specific sections */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Add to your main CSS file */
+@keyframes slide-up {
+  0% {
+    top: 500px; /* Start position */
+    opacity: 0;
+  }
+  100% {
+    top: 0; /* Final position */
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    top: -500px; /* Start position */
+    opacity: 0;
+  }
+  100% {
+    top: 250px; /* Final position */
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 2s ease-in-out;
+}
+
+.animate-slide-down {
+  animation: slide-down 2s ease-in-out;
+}
+
+.text-border {
+  color: transparent;
+  border: 2px solid red;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hover\:animate-shake:hover {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Custom style for the range input */
+.custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%; /* Adjust the width of the slider */
+  height: 5px;
+  background: #950420;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.custom-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  background: #950420;
+  border-radius: 5px;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;  /* Set a consistent width */
+  height: 16px; /* Set a consistent height */
+  background: #950420; /* Thumb color */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* Center the thumb vertically */
+}
+
+.custom-range::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  background: #950420;
+  border-radius: 5px;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 16px; /* Set a consistent width */
+  height: 16px; /* Set a consistent height */
+  background: #950420; /* Thumb color */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range::-ms-track {
+  width: 100%;
+  height: 5px;
+  background: #950420;
+  border-radius: 5px;
+  border-color: transparent;
+  color: transparent;
+}
+
+.custom-range::-ms-thumb {
+  width: 16px; /* Set a consistent width */
+  height: 16px; /* Set a consistent height */
+  background: #950420; /* Thumb color */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -5px; /* Center the thumb vertically */
+}
